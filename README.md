@@ -1,2 +1,0 @@
-# fault.cash
-fault.cash
