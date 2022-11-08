@@ -96,7 +96,7 @@
 
         <div id= "center" class ="container text-center">
             <h1>
-                <p href="" class="typewrite" data-period="2000" data-type='[ "fault#1337", "get downed", "get package lost", "1 lose nn", "🇷🇺"]'>
+                <p href="" class="typewrite" data-period="2000" data-type='[ "fault#1337", "get downed", "get package lost", "1 lose nn", "ru"]'>
                     <span class="wrap"></span>
                 </p>
             </h1>
@@ -106,7 +106,7 @@
               </h1>
           <span class="icons">
               <div class="steam" onclick="window.open('https://steamcommunity.com/id/zaiv/')">steam</div>
-              <div class="vanta" onclick="window.open('https://discord.gg/valohvh')">valohvh</div>
+              <div class="valohvh" onclick="window.open('https://discord.gg/valohvh')">valohvh</div>
               <p id="center" class="sound"></p>
               <label class="switch">
                <input type="checkbox">
@@ -189,16 +189,16 @@ document.onmouseup = mousehandler;
     $(document).ready (function(){
         var myAudio = document.getElementById("king");
         var more = 0;
-        $(".sound").text("play");
+        $(".sound").text("[play]");
         $('.round').click (function(){
             if(more %2 ==0){
                 $(myAudio)[0].play();
-                $(".sound").text("stop");
+                $(".sound").text("[stop]");
                 more++;
             }
             else if(more % 2 != 0){
                 $(myAudio)[0].pause();
-                $(".sound").text("play");
+                $(".sound").text("[play]");
                 more++;
             }
         });
